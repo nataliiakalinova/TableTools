@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Table tools</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<form name="filterForm">
+    <span>Filter by</span>
+    <input type="radio" name="field" value="firstname" checked="checked"> First name
+    <input type="radio" name="field" value="lastname"> Last name <br>
+    <span>Value</span>
+    <input type="text" id = "filterValue">
+</form>
+<br>
+<table id="dataTable">
+    <thead id="dataHeader"></thead>
+    <tbody id="dataBody"></tbody>
+</table>
+
+
+<script src="scripts/TableData.js"></script>
+<script src="scripts/tools.js"></script>
+</body>
+</html>
