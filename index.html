@@ -9,10 +9,9 @@
 
 <form name="filterForm">
     <span>Filter by</span>
-    <input type="radio" name="field" value="firstname" checked="checked"> First name
-    <input type="radio" name="field" value="lastname"> Last name <br>
-    <span>Value</span>
-    <input type="text" id = "filterValue">
+    <label><input type="radio" name="field" value="firstname" checked="checked">First name</label>
+    <label><input type="radio" name="field" value="lastname"> Last name</label> <br>
+    <label>Value <input type="text" id = "filterValue"></label>
 </form>
 <br>
 <table id="dataTable">
@@ -23,5 +22,8 @@
 
 <script src="scripts/TableData.js"></script>
 <script src="scripts/tools.js"></script>
+<script src="scripts/FilterModule.js"></script>
+<script src="scripts/SortModule.js"></script>
+<script src="scripts/TableProcessingModule.js"></script>
 </body>
 </html>
